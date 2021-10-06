@@ -1,40 +1,80 @@
-* {
+
+
+  .blog-header {
+  line-height: 1;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+  .blog-header-logo {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+  font-size: 2.25rem;
+}
+
+.blog-header-logo:hover {
+  text-decoration: none;
+}
+      
+      
+      .form-control-dark {
+        color: #fff;
+        background-color: #eb8242 ;
+        border-color: #000;
+      }
+      .form-control-dark:focus {
+        color: #fff;
+        background-color: #eb8242);
+        border-color: #fff;
+        box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .25);
+      }
+      
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+      
+      .text-small {
+        font-size: 90%;
+      }
+
+body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #5a5a5a;
     background-color: #bea191;
-}
-header.page-header {
-    background: no-repeat right/cover url(https://www.trbimg.com/img-57f3c7b9/turbine/mc-whole-foods-hamilton-macungie-review-20161004);
-    display: flex;
-    height: 120px;
-    min-width: 120px;
-    align-items: center;
-    color: #225464;
-    text-shadow: #003 0 0 .2em;
-}
 
-header.page-header > h1 {
-    font: bold;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
-    font-size: larger;
-    font-stretch: expanded
-}
-
-main {
-    font: 1rem 'Fira Sans', sans-serif;
-}
-
-}
-.navbar-brand {
-    padding-top: $navbar-brand-padding-y;
-    padding-bottom: $navbar-brand-padding-y;
-    margin-right: $navbar-brand-margin-end;
-    @include font-size($navbar-brand-font-size);
-    text-decoration: if($link-decoration == none, null, none);
-    white-space: nowrap;
+  }
   
-    &:hover,
-    &:focus {
-      text-decoration: if($link-hover-decoration == underline, none, null);
+  .marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  .marketing h2 {
+    font-weight: 400;
+  }
+
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+  
+  
+  
+  .featurette-divider {
+    margin: 5rem 0; 
+  }
+  
+  
+    .featurette-heading {
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 1; 
+    letter-spacing: -.05rem;
     }
   }
+  
+  @media (min-width: 62em) {
+    .featurette-heading {
+      margin-top: 7rem;
+    }
   }
-
+  
